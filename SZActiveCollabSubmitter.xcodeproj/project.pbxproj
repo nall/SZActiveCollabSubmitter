@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		A421C1C511BFFA5400D85603 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421C1C411BFFA5400D85603 /* Cocoa.framework */; };
+		A421C1CA11BFFA5400D85603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A421C1C811BFFA5400D85603 /* InfoPlist.strings */; };
+		A421C1CC11BFFA5400D85603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A421C1CB11BFFA5400D85603 /* main.m */; };
+		A421C1CF11BFFA5400D85603 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A421C1CD11BFFA5400D85603 /* MainMenu.xib */; };
+		A421C1D211BFFA5400D85603 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A421C1D011BFFA5400D85603 /* Credits.rtf */; };
+		A421C1D511BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A421C1D411BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.m */; };
+		A421C1DC11BFFB2E00D85603 /* SZSubmissionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44D227911BE6F0500A64A1B /* SZSubmissionWindow.xib */; };
+		A421C1E211BFFB5A00D85603 /* SZActiveCollabSubmitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* SZActiveCollabSubmitter.framework */; };
+		A44D227A11BE6F0500A64A1B /* SZSubmissionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44D227911BE6F0500A64A1B /* SZSubmissionWindow.xib */; };
+		A44D227E11BE715F00A64A1B /* SZActiveCollabSubmitterController.h in Headers */ = {isa = PBXBuildFile; fileRef = A44D227C11BE715F00A64A1B /* SZActiveCollabSubmitterController.h */; };
+		A44D227F11BE715F00A64A1B /* SZActiveCollabSubmitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A421C1D911BFFA6600D85603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = SZActiveCollabSubmitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* SZActiveCollabSubmitter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZActiveCollabSubmitter_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* SZActiveCollabSubmitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZActiveCollabSubmitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421C1C211BFFA5400D85603 /* SZActiveCollabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZActiveCollabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421C1C411BFFA5400D85603 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A421C1C611BFFA5400D85603 /* SZActiveCollabExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SZActiveCollabExample-Info.plist"; sourceTree = "<group>"; };
+		A421C1C711BFFA5400D85603 /* SZActiveCollabExample_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZActiveCollabExample_Prefix.pch; sourceTree = "<group>"; };
+		A421C1C911BFFA5400D85603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A421C1CB11BFFA5400D85603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A421C1CE11BFFA5400D85603 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A421C1D111BFFA5400D85603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A421C1D311BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZActiveCollabExampleAppDelegate.h; sourceTree = "<group>"; };
+		A421C1D411BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZActiveCollabExampleAppDelegate.m; sourceTree = "<group>"; };
+		A44D227911BE6F0500A64A1B /* SZSubmissionWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SZSubmissionWindow.xib; sourceTree = "<group>"; };
+		A44D227C11BE715F00A64A1B /* SZActiveCollabSubmitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZActiveCollabSubmitterController.h; sourceTree = "<group>"; };
+		A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZActiveCollabSubmitterController.m; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421C1BF11BFFA5400D85603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421C1E211BFFB5A00D85603 /* SZActiveCollabSubmitter.framework in Frameworks */,
+				A421C1C511BFFA5400D85603 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* SZActiveCollabSubmitter.framework */,
+				A421C1C211BFFA5400D85603 /* SZActiveCollabExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* SZActiveCollabSubmitter */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				A421C1B911BFFA5400D85603 /* SZActiveCollabExample */,
+			);
+			name = SZActiveCollabSubmitter;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				A44D227911BE6F0500A64A1B /* SZSubmissionWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A44D227C11BE715F00A64A1B /* SZActiveCollabSubmitterController.h */,
+				A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* SZActiveCollabSubmitter_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A421C1B911BFFA5400D85603 /* SZActiveCollabExample */ = {
+			isa = PBXGroup;
+			children = (
+				A421C1BA11BFFA5400D85603 /* Classes */,
+				A421C1BB11BFFA5400D85603 /* Other Sources */,
+				A421C1BC11BFFA5400D85603 /* Resources */,
+				A421C1BD11BFFA5400D85603 /* Frameworks */,
+			);
+			path = SZActiveCollabExample;
+			sourceTree = "<group>";
+		};
+		A421C1BA11BFFA5400D85603 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A421C1D311BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.h */,
+				A421C1D411BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A421C1BB11BFFA5400D85603 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A421C1C711BFFA5400D85603 /* SZActiveCollabExample_Prefix.pch */,
+				A421C1CB11BFFA5400D85603 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A421C1BC11BFFA5400D85603 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A421C1C611BFFA5400D85603 /* SZActiveCollabExample-Info.plist */,
+				A421C1C811BFFA5400D85603 /* InfoPlist.strings */,
+				A421C1CD11BFFA5400D85603 /* MainMenu.xib */,
+				A421C1D011BFFA5400D85603 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A421C1BD11BFFA5400D85603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A421C1C411BFFA5400D85603 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44D227E11BE715F00A64A1B /* SZActiveCollabSubmitterController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "SZActiveCollabSubmitter" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZActiveCollabSubmitter;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = SZActiveCollabSubmitter;
+			productReference = 8DC2EF5B0486A6940098B216 /* SZActiveCollabSubmitter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A421C1C111BFFA5400D85603 /* SZActiveCollabExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A421C1D811BFFA5400D85603 /* Build configuration list for PBXNativeTarget "SZActiveCollabExample" */;
+			buildPhases = (
+				A421C1BE11BFFA5400D85603 /* Sources */,
+				A421C1BF11BFFA5400D85603 /* Frameworks */,
+				A421C1C011BFFA5400D85603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A421C1DA11BFFA6600D85603 /* PBXTargetDependency */,
+			);
+			name = SZActiveCollabExample;
+			productName = SZActiveCollabExample;
+			productReference = A421C1C211BFFA5400D85603 /* SZActiveCollabExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SZActiveCollabSubmitter" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* SZActiveCollabSubmitter */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */,
+				A421C1C111BFFA5400D85603 /* SZActiveCollabExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				A44D227A11BE6F0500A64A1B /* SZSubmissionWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421C1C011BFFA5400D85603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421C1CA11BFFA5400D85603 /* InfoPlist.strings in Resources */,
+				A421C1CF11BFFA5400D85603 /* MainMenu.xib in Resources */,
+				A421C1D211BFFA5400D85603 /* Credits.rtf in Resources */,
+				A421C1DC11BFFB2E00D85603 /* SZSubmissionWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44D227F11BE715F00A64A1B /* SZActiveCollabSubmitterController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421C1BE11BFFA5400D85603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421C1CC11BFFA5400D85603 /* main.m in Sources */,
+				A421C1D511BFFA5400D85603 /* SZActiveCollabExampleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A421C1DA11BFFA6600D85603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */;
+			targetProxy = A421C1D911BFFA6600D85603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A421C1C811BFFA5400D85603 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A421C1C911BFFA5400D85603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A421C1CD11BFFA5400D85603 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A421C1CE11BFFA5400D85603 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A421C1D011BFFA5400D85603 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A421C1D111BFFA5400D85603 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SZActiveCollabSubmitter_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = SZActiveCollabSubmitter;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SZActiveCollabSubmitter_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = SZActiveCollabSubmitter;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A421C1D611BFFA5400D85603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SZActiveCollabExample/SZActiveCollabExample_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SZActiveCollabExample/SZActiveCollabExample-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SZActiveCollabExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A421C1D711BFFA5400D85603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SZActiveCollabExample/SZActiveCollabExample_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SZActiveCollabExample/SZActiveCollabExample-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SZActiveCollabExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "SZActiveCollabSubmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SZActiveCollabSubmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A421C1D811BFFA5400D85603 /* Build configuration list for PBXNativeTarget "SZActiveCollabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A421C1D611BFFA5400D85603 /* Debug */,
+				A421C1D711BFFA5400D85603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

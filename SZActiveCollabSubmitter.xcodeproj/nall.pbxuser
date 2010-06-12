@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A421C1C311BFFA5400D85603 /* SZActiveCollabExample */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */;
+		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */,
+		);
+		codeSenseManager = A44D227811BE6EF900A64A1B /* Code sense */;
+		executables = (
+			A421C1C311BFFA5400D85603 /* SZActiveCollabExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					681,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297692890;
+			PBXWorkspaceStateSaveDate = 297692890;
+		};
+		perUserProjectItems = {
+			A44D229C11BE78CD00A64A1B = A44D229C11BE78CD00A64A1B /* PBXTextBookmark */;
+			A44D229D11BE78CD00A64A1B = A44D229D11BE78CD00A64A1B /* PBXTextBookmark */;
+			A44D229F11BF132600A64A1B = A44D229F11BF132600A64A1B /* PBXTextBookmark */;
+		};
+		sourceControlManager = A44D227711BE6EF900A64A1B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* SZActiveCollabSubmitter */ = {
+		activeExec = 0;
+	};
+	A421C1C111BFFA5400D85603 /* SZActiveCollabExample */ = {
+		activeExec = 0;
+		executables = (
+			A421C1C311BFFA5400D85603 /* SZActiveCollabExample */,
+		);
+	};
+	A421C1C311BFFA5400D85603 /* SZActiveCollabExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SZActiveCollabExample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A44D227711BE6EF900A64A1B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A44D227811BE6EF900A64A1B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A44D227C11BE715F00A64A1B /* SZActiveCollabSubmitterController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 502}}";
+			sepNavSelRange = "{587, 0}";
+			sepNavVisRange = "{0, 663}";
+		};
+	};
+	A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 560}}";
+			sepNavSelRange = "{636, 0}";
+			sepNavVisRange = "{0, 280}";
+		};
+	};
+	A44D229C11BE78CD00A64A1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A44D227C11BE715F00A64A1B /* SZActiveCollabSubmitterController.h */;
+		name = "SZActiveCollabSubmitterController.h: 23";
+		rLen = 0;
+		rLoc = 587;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	A44D229D11BE78CD00A64A1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */;
+		name = "SZActiveCollabSubmitterController.m: 17";
+		rLen = 14;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	A44D229F11BF132600A64A1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A44D227D11BE715F00A64A1B /* SZActiveCollabSubmitterController.m */;
+		name = "SZActiveCollabSubmitterController.m: 22";
+		rLen = 0;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 0;
+	};
+}
